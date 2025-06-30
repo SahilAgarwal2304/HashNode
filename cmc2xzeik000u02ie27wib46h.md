@@ -33,7 +33,7 @@ Java handles memory automatically using a **garbage collector**, which frees up 
 public class Main {
     public static void main(String[] args) {
         Integer number = new Integer(10); // memory allocated
-        System.out.println(number);
+        System.out.println(number) ;
         // No need to free memory
         // Java's garbage collector handles it
     }
